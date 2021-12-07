@@ -44,5 +44,5 @@ dependencies {
     implementation fileTree(include: ['*.jar', '*.aar'], dir: 'libs')
 
     implementation project(':library')
-    //implementation 'com.github.MH-projects:ExamplePOM:1.0.6'
+    //implementation 'com.github.MH-projects:ExamplePOM:1.0.7'
 }

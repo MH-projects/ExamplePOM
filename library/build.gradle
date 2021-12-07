@@ -43,7 +43,7 @@ afterEvaluate {
             release(MavenPublication) {
                 from components.release
                 groupId = "com.github.MH-projects"
-                artifactId = 'ExamplePOM'
+                artifactId = 'library1'
                 version = "1.0.7"
             }
         }
