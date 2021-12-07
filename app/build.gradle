@@ -41,6 +41,8 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 
+    implementation fileTree(include: ['*.jar', '*.aar'], dir: 'libs')
+
     implementation project(':library')
-    //implementation 'com.github.MH-projects:ExamplePOM:1.0.5'
+    //implementation 'com.github.MH-projects:ExamplePOM:1.0.6'
 }
