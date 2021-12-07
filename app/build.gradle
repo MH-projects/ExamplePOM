@@ -45,4 +45,5 @@ dependencies {
 
     implementation project(':library')
     //implementation 'com.github.MH-projects:ExamplePOM:1.0.7'
+    //implementation 'com.github.MH-projects:library1:1.0.7'
 }
